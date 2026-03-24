@@ -18,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $op = $_POST['operation'];
 
     function calculate($a, $b, $action) {
-        // Проверка на корректность (числа ли это)
         if (!is_numeric($a) || !is_numeric($b)) {
             return "Ошибка: введите корректные числа!";
         }
