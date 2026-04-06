@@ -6,6 +6,5 @@ function showArguments(...$items) {
     }
 }
 
-// Вызов функции: две строки и число
 showArguments("Первая строка", "Вторая строка", 42);
 ?>

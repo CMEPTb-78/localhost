@@ -1,6 +1,5 @@
 <?php
 function animateBackground($speed) {
-    // Чем выше speed, тем короче длительность анимации
     $duration = 10 / $speed; 
     echo "
     <style>
@@ -16,6 +15,5 @@ function animateBackground($speed) {
     <p>Скорость изменения: $speed</p>";
 }
 
-// Вызов с параметром скорости (например, 2)
 animateBackground(2);
 ?>
